@@ -1,0 +1,16 @@
+
+
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "dev:env": "CYPRESS_baseUrl=https://frontend.stage.bunch.capital/",
+    "dev:cypress:open": "npm run dev:env cypress open",
+    "cypress:run": "cypress run",
+    "dev:cypress:run": "npm run dev:env cypress run"
+  },
+  "devDependencies": {
+
+    "cypress": "^12.8.1"
+  },
+  
+    "baseUrl": "https://frontend.stage.bunch.capital/" }
